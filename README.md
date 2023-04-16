@@ -8,6 +8,9 @@ To install: \
 `npm install -g aws-sso-credentials-getter` or `yarn global add aws-sso-credentials-getter`
 
 To use with "default" sso-profile: \
+`aws-sso-credentials-getter`
+
+Same thing but with shorter command: \
 `ssocred`
 
 To use with other sso-profile than "default": \
