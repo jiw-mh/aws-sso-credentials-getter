@@ -24,3 +24,6 @@ For instance when you want a default profile: \
 
 You, can also set a custom profilename from any current profile that is not expired by running: \
 `ssocred {exsistinProfile} {customProfile}`
+
+You can also force the re-aquisition of the login token: \
+`ssocred {profile} "" true`

@@ -6,9 +6,11 @@ const args = process.argv.splice(process.execArgv.length + 2)
 // Retrieve the first argument
 const profile = args[0] || 'default'
 
-const customProfile = args[1] ? args[1] : undefined
+const customProfile = args[1] || undefined 
+
+const force = args[2] ? /^\s*true\*$/i.test(args[2]) : false
 
 import SetCreds from "../lib/index.js"
 
 // Displays the text in the console
-SetCreds(profile, customProfile)
+SetCreds(profile, customProfile, force)
