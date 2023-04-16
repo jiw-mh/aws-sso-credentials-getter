@@ -20,7 +20,7 @@
         ]
     },
     "dependencies": {
-        "aws-sdk": "^2.849.0",
+        "@aws-sdk/client-sso": "^3.310.0",
         "ini": "^2.0.0"
     },
     "devDependencies": {
