@@ -4,7 +4,7 @@
 const args = process.argv.splice(process.execArgv.length + 2)
 
 // Retrieve the first argument
-const profile = args[0]
+const profile = args[0] || 'default'
 
 const customProfile = args[1] ? args[1] : undefined
 

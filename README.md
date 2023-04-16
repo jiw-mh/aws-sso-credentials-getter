@@ -7,7 +7,10 @@ Why though? Tools like terraform are currently unable to handle AWS auth via SSO
 To install: \
 `npm install -g aws-sso-credentials-getter` or `yarn global add aws-sso-credentials-getter`
 
-To use: \
+To use with "default" sso-profile: \
+`ssocred`
+
+To use with other sso-profile than "default": \
 `ssocred {profile}`
 
 To set credentials to a custom profilename: \
